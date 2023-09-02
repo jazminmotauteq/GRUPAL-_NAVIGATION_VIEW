@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:icon="@drawable/icongmail"
+        android:title="UTEQ">
+        <menu>
+            <item
+                android:icon="@drawable/icongmail"
+                android:title="Gmail" />
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/iconinbox"
+            android:title="Recibidos"/>
+        <item
+            android:icon="@drawable/iconsocial"
+            android:title="Social"/>
+        <item
+            android:icon="@drawable/iconpromotion"
+            android:title="Promociones"/>
+    </group>
+    <item android:title="Otras Opciones">
+        <menu>
+            <item
+                android:icon="@drawable/iconstarred"
+                android:title="Destacados"/>
+            <item
+                android:icon="@drawable/iconsnozed"
+                android:title="Pospuestos"/>
+            <item
+                android:icon="@drawable/iconimportant"
+                android:title="Importantes"/>
+            <item
+                android:icon="@drawable/iconsend"
+                android:title="Enviados"/>
+            <item
+                android:icon="@drawable/iconscheduled"
+                android:title="Programados"/>
+            <item
+                android:icon="@drawable/iconsdrafts"
+                android:title="Borradores"/>
+            <item
+                android:icon="@drawable/iconsallmail"
+                android:title="Todo el correo"/>
+            <item
+                android:icon="@drawable/iconspam"
+                android:title="Spam"/>
+            <item
+                android:icon="@drawable/icontrash"
+                android:title="Papelera"/>
+        </menu>
+    </item>
+
+
+</menu>
+
